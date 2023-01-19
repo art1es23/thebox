@@ -1,0 +1,62 @@
+/* body {
+  background-color: aqua;
+} */
+
+.project {
+  display: grid;
+  grid-template-columns: calc(55% - 2.5rem) 45%;
+  /* align-items: center; */
+  gap: 1rem;
+  margin: max(5vh, 2.5rem) auto;
+  grid-gap: 5rem;
+}
+
+.project-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.project__title {
+  font-size: max(1.5vw, 1rem);
+}
+
+.project-meta-description {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.project-meta-description li {
+  font-size: max(0.75vw, 13px);
+  color: grey;
+}
+
+.project__description {
+  display: flex;
+  flex-direction: column;
+  font-size: max(0.85vw, 14px);
+  gap: 1rem;
+}
+.project-skills {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.project-skills a {
+  text-decoration: none;
+  color: grey;
+}
+.project-skills a:hover {
+  color: #ac462c;
+}

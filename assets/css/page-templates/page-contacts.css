@@ -1,0 +1,59 @@
+.get-in-touch {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.get-in-touch--wrapper {
+  margin: max(5vh, 2.5rem) auto;
+  display: flex;
+  flex-direction: column;
+  gap: max(2.5vh, 1.5rem);
+  align-items: center;
+}
+
+.get-in-touch__title {
+  font-size: max(2vw, 30px);
+}
+.get-in-touch__description {
+  font-size: max(1vw, 16px);
+}
+
+.contacts {
+  display: flex;
+  max-width: 60%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: max(2.5vh, 2rem);
+}
+
+.contacts input {
+  width: calc(50% - 2rem);
+}
+.contacts textarea {
+  width: 100%;
+}
+
+input.button-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: max(0.9vw, 14px);
+  width: auto;
+  /* background-color: #ac462c; */
+  padding: 0.75rem 2.25rem;
+  margin: auto;
+  color: #fff;
+  transition: all 0.3s ease-in;
+  background: linear-gradient(145deg, #a6b7b3, #8c9a96);
+  box-shadow: 20px 20px 60px #84918e, -20px -20px 60px #b2c5c0;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.button-submit:hover {
+  background: linear-gradient(145deg, #8c9a96, #a6b7b3);
+  box-shadow: 20px 20px 60px #84918e, -20px -20px 60px #b2c5c0;
+}
